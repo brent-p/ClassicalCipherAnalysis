@@ -1,7 +1,7 @@
 # ClassyCrypt
 A tool for analysing classical ciphers.
 
-Currently supports diagram frequency analysis(occurence of two letter combinations) compares them to standard english frequencies.
+Analyses the occurence of the most frequent diagrams(two letter english combinations .eg. "TH" or "HE") in cipher text and compares them to standard english frequencies. Analysing diagrams can be used to decrypt transposition ciphers.
 
 Example Output:
 
