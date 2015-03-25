@@ -81,7 +81,7 @@ public class Main {
             case DIAGRAM_FREQUENCY:
                 lines.add("");
                 lines.add("--------------------------------");
-                lines.add("Transposition Cipher Diagram Frequencies");
+                lines.add("Diagram Frequencies");
                 lines.add("--------------------------------");
 
 
