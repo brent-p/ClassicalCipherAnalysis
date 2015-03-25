@@ -34,6 +34,7 @@ Example Output:
 
 
 ### Compiling
+	#Note you will need to have Java 7 or higher JDK installed.
 	javac -cp "./src/"  src/com/ClassyCrypt/*.java
 
 ### Running
