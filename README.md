@@ -1,13 +1,6 @@
 # ClassyCrypt
 A tool for analysing classical ciphers.
 
-Minimal Arguments "Inputfile"
-
-Optional Arguments: "Inputfile" "Outputfile" "Analysis type"
-
-Analysis type options 
-"D" Diagram Analysis.
-
 Currently supports diagram frequency analysis(occurence of two letter combinations) compares them to standard english frequencies.
 
 Example Output:
@@ -39,3 +32,13 @@ Example Output:
 	AR= 15 Current Frequency Rank= 22 English Rank= 16
 	IS= 11 Current Frequency Rank= 23 English Rank= 20
 
+
+### Compiling
+	javac -cp "./src/"  src/com/ClassyCrypt/*.java
+
+### Running
+	#At the minimum you must specify an input file:
+	java -cp "./src/" com.ClassyCrypt.Main "./Data/c1"
+
+	#Optionally you can specify an output file
+	java -cp "./src/" com.ClassyCrypt.Main "./Data/c1"	"./Data/Output"
