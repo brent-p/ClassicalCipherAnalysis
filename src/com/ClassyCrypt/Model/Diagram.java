@@ -7,7 +7,6 @@ package com.ClassyCrypt.Model;
  */
 public class Diagram {
     public String letters = "";
-    public Integer frequencyRank = 0;
     public Integer count = 0;
 
     public Diagram()
