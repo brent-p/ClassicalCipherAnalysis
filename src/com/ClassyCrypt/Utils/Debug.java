@@ -10,9 +10,9 @@ public class Debug {
     {
         SYSTEM, FREQUENCY
     }
-    public static boolean debugOn = true;
-    public static boolean systemOn = true;
-    public static boolean frequencyOn = true;
+    public static boolean debugOn = false;
+    public static boolean systemOn = false;
+    public static boolean frequencyOn = false;
 
     //E.g. Debug.out("X",x);
     public static void out(Type type, Object... strArgs)
