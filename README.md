@@ -1,4 +1,4 @@
-# ClassyCrypt
+# ClassicalCipherAnalysis
 A tool for analysing classical ciphers.
 
 Analyses the occurence of the most frequent diagrams(two letter english combinations .eg. "TH" or "HE") in cipher text and compares them to standard english frequencies. Analysing diagrams can be used to decrypt transposition ciphers.
